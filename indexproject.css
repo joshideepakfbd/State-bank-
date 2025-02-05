@@ -1,0 +1,602 @@
+*{
+    padding: 0;
+margin: 0 auto;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.slider{
+    width: 100%;
+    height: auto;
+    
+
+}
+.slider img{
+    width: 30px;
+    
+}
+.slider ul{
+    position: fixed;
+    right: -98px;
+    top:30%;
+    margin: 1px;
+}
+
+.slider li{
+    display: flex;
+    border: 1px solid #cbeffb;
+    list-style: none;
+    align-items: center;
+    background-color: #cbeffb;
+    width: 140px;
+    height: 50px;
+    padding: 2px;
+    transition-duration: 1s;
+    
+
+}
+ .slider li:hover{
+    transition-duration: 0.2s;
+    transform: translate(-107px,0);
+  
+
+} 
+.slider li div{
+    text-align: center;
+    text-align: center;
+
+    
+}
+
+ul li:last-child{
+    flex: 1.5 ;
+}
+
+.slider li a{
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
+    
+
+
+}
+.slider li a:hover{
+    text-decoration: underline;
+}
+
+
+:root{
+    --width:146px;
+    --height:80px;
+    --margin-left:10px;
+    --margin-left:10px;
+
+
+}
+.logo img{
+    width: var(--width) ;
+    height: var(--height) ;
+    /* margin-top: 20px ; */
+    margin-left: var(--margin-left);
+}
+#sbi-logo{
+    height: 40px;
+
+}
+.sbi{
+    width: var(--width) ;
+    height: var(--height) ;
+    float: right;
+    margin-top: -20px;
+    /* margin-left: var(--margin-left); */
+}
+
+
+
+
+   .mendate>a {
+    font-size: 15px;
+   }
+    .mendate span{
+        animation: mendate 0.1s alternate infinite; 
+        
+    }
+
+   
+   @keyframes mendate{
+    0%{
+        color: orange;
+    }
+    100%{
+        color: green;
+    }
+
+   }
+
+.container{
+    border: 1px solid black;
+    width: 1150px;
+    overflow: hidden;
+}
+.navbar{
+    margin-top: 20px;
+    background-color: #0c376a;
+
+}
+.card-body ul{
+    list-style-type: none;
+  padding: 0px;
+  margin: 0 auto;
+    display: flex;
+   
+}
+.card-body ul li{
+   
+    font-size: 12px;
+    text-transform: capitalize;
+    border-right: 1px solid green;
+}
+.card-body ul li a{
+    padding: 2px;
+    margin: 5px;
+}
+.card button{
+    background-color: #0c376a;
+    color: white;
+    width: 150px;
+    margin-left: 35%;
+    margin-bottom: 25px;
+    margin-top:25px;
+
+}
+.card-body span{
+    margin-left: 5px;
+}
+
+.navbar ul{
+    display: flex;
+    width: 100%;
+    margin:auto ;
+    
+ 
+    
+   }
+   .navbar li{
+    list-style-type: none;
+   padding: 10px 0px;
+   border-right: 1px solid green;
+    font-size: 11px;
+    
+    
+
+
+   }
+ 
+ 
+
+
+#hindi span{
+    color: #fff45c;
+    float: right;
+    padding: 0 1px;
+    margin-right: 8px;
+    box-shadow: 0px 0px 0px 1px;
+   }
+   .navbar li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 0 8px;
+    color: white;   
+    /* justify-content: center; */
+  
+   }
+   .navbar li ul{
+    display: none;
+    /* background-color: white; */
+   
+   }
+   
+   .navbar li:hover ul{
+    display: block;
+    position: absolute;
+    /* align-items: center; */
+    width: 220px;
+    margin-top: 10px;
+    margin-left: -45px;
+    z-index: 20;
+  
+    
+    
+   }
+   .navbar li ul li{
+    border: 1px solid black;
+    background-color: white;
+    z-index: 25;
+    
+   }
+   .navbar li ul li a{
+    color: black;
+   }
+   .navbar ul  li:hover{
+   
+     background-color:#0c376a;
+    
+     
+     
+   
+  
+   }
+   .dropdown li:hover a{
+    color: white;
+   }
+   
+    
+   
+  
+    @keyframes  animate  {
+        0%{
+            background-color:orange;
+        }
+        50%
+        {
+            background-color: blue;
+
+        
+    }
+    100%{
+        background-color: green;
+    }
+}
+      .text-animation{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 12px;
+    margin-top: 10px;
+    color: blue;
+    border: 1px solid lightgrey;
+    z-index: 10;
+    
+    
+    
+}
+.login-page-paragraph{
+       animation: paranimation 1s infinite  alternate ease-in-out;
+   
+   }
+.sbi-paragraph{
+   
+}
+@keyframes paranimation {
+    0%{
+        color:blue;
+
+    }
+    50%{
+        color: rgb(179, 20, 20);
+
+    }
+    70%{
+        color:orange ;
+    }
+    100%{
+        color:green ;
+    }
+    
+}
+.personal-banking{
+    /* margin: auto; */
+    text-align: center;
+    margin-top: 33px;
+    border: 1px solid gray;
+}
+.personal-banking a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    margin-top: 15px;
+    font-size: 25px;
+}
+.login-btn{
+    background-color:#0c376a;
+    color: white;
+    width: 180px;
+    height: 30px;
+    font-size: 20px;
+}
+.banking-section{
+    display: flex;
+    width: 100%;
+    margin: 2px;
+    
+    
+
+}
+.personal-banking{
+    width: 50%;
+    background-color: #f8f8f8;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    padding-right: 4px;
+}
+.personal-banking img{
+    margin-top: 30px;
+}
+
+.yono-sbi-business{
+    width: 48%;
+    margin-top: 30px;
+    background-color: #f8f8f8;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    padding-right: 8px;
+}
+.yono-sbi-business button{
+    width: 120px;
+    height: 30px;
+    background-color: #0c376a;
+    color: white;
+        font-size: 15px;
+        margin: 2px;
+    
+
+}
+.yono-sbi-business input{
+    width: 150px;
+    height: 30px;
+}
+.yono {
+    margin-top: 7px;
+    height: 60px;
+    opacity: 1;
+}
+.input-text{
+    margin-top: 4px;
+    width: 40%;
+    display: flex;
+    padding: 10px;
+    background-color: white;
+
+}
+.input-text li{
+    list-style: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.yono-sbi-business h1{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.navbar-registration{
+    display: flex;
+    font-size:15px ;
+
+}
+.navbar-registration li{
+    list-style: none;
+    margin-top: 15px;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+    .navbar-registration span{
+        margin-top: 50px;
+
+    }
+
+.personal-banking p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+text{
+    font-size: 8px;
+}
+.registration{
+    height: 60px;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+.registration1{
+    height: 75px;
+    padding-left: 35px;
+    margin-top: 5px;
+}
+.questionmark{
+    height: 50px;
+    padding-right: 8px;
+    margin-top: 5px;
+}
+.questionmark1{
+    height: 60px;
+    margin-top: 10px;
+}
+.customber{
+    height: 40px;
+    padding-right: 4px;
+}
+.customber1{
+    height: 55px;
+    margin-top: 25px;
+
+}
+.item{
+    margin-top: 50px;
+
+}
+.marquee{
+    background-color:#cbeffb;
+    color: red;
+    margin-right: 12px;
+    border: 1px solid black;
+    width: 100%;
+    margin: 10px 10px 10px 0px;
+    display: block;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space:nowrap;
+    height: 28px;
+}
+.marquee p{
+    animation: marquee 10s linear infinite;
+
+}
+@keyframes marquee {
+    0%{
+        transform: translatex(100%);
+
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+    
+.marquee p:hover{
+    animation-play-state: paused;
+}   
+.navbar-nav {
+    display: block;
+}
+
+.navbar-nav div li{
+    list-style: none;
+    justify-content: center;
+    padding: 7px;
+    margin-left: -5px;
+    
+}
+
+.navbar-nav div  li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+   
+    font-size: 12px;
+   
+
+
+    
+}
+.navbar-nav div li a:hover{
+    color: black;
+    text-decoration:underline;
+    
+}
+.extra-link{
+    text-align: center;
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 20px;
+ 
+    
+}
+.extra-link button{
+    font-size: 15px;
+    width: 180px;
+    border: 1px solid blue;
+    padding: 10px;
+    text-transform: capitalize;
+    
+
+}
+.image-box{
+   max-width: 1200px;
+    height: 300px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.image-box div {
+     width: 9600px;
+    position: relative;
+    animation: slider 20s infinite alternate  linear;
+    
+}
+.image-box img{
+   width:1300px;
+    height: 300px;
+    float: left;
+
+}
+@keyframes slider {
+        0%{
+            left:0px;
+
+        }
+        10%{
+            left: 0px;
+        }
+        15%{
+            left: -1300px;
+        }
+        20%{
+            left:-1300px;
+        }
+        25%{
+            left: -2600px;
+        }
+        30%{
+            left:-2600px
+        }
+        35%{
+            left: -3900px;
+        }
+        40%{
+            left: -3900px;
+        }
+        55%{
+            left: -5200px;
+        }
+        75%{
+            left: -5200px;
+        }
+        85%{
+            left: -6500px;
+        }
+        100%{
+            left: -6500px;
+        }
+        
+
+
+    }
+    .footer{
+        display: flex;
+        background-color:#0c376a;
+        align-items: center;
+        color: white;
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    .footer div{
+        flex: 1;
+    }
+    .sbi-bank-foooter{
+        width: 100%;
+
+        
+    }
+    .footer-img{
+        display: none;
+    }
+    .sbi-footer{
+        width: 100%;
+       
+        font-size: 12px;
+    }
+    .lock{
+        width: 50px;
+        font-size: 8px;
+    }
+    .sbi-bank-foooter span img {
+        margin-top: 10px;
+        
+    
+    }
+  
+ 
